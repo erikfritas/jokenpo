@@ -10,8 +10,9 @@ MSG = {
 JOKENPO = {
     "pedra": { "vence": "tesoura" },
     "papel": { "vence": "pedra" },
-    "tesoura": { "vence": "papel" },
-    "cola": { "vence": "tesoura" }
+    "tesoura": { "vence": "papel" }
+#    "cola": { "vence": "tesoura" }
+#    vc pode ir adicionando outras coisas como esta
 }
 
 GAME_KEYS = list(JOKENPO.keys())
