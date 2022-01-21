@@ -1,5 +1,4 @@
 # jokenpo
--=-=-=-
 
 ## How to use:
 ```
