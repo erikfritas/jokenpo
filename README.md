@@ -1,4 +1,4 @@
-# jokenpo
+jokenpo
 =============
 
 ## How to use:
