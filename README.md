@@ -9,6 +9,6 @@ $ python3 jokenpo.py 1
 + 0: pedra
 + 1: papel
 + 2: tesoura <br>
-**you can add more options in JOKENPO constant
+**you can add more options in JOKENPO constant**
 
 Maded by [@erikfritas](https://github.com/erikfritas)
