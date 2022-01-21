@@ -10,7 +10,8 @@ MSG = {
 JOKENPO = {
     "pedra": { "vence": "tesoura" },
     "papel": { "vence": "pedra" },
-    "tesoura": { "vence": "papel" }
+    "tesoura": { "vence": "papel" },
+    "cola": { "vence": "tesoura" }
 }
 
 GAME_KEYS = list(JOKENPO.keys())
@@ -21,7 +22,7 @@ class Jokenpo:
         Declaração das variáveis
         '''
         self.num = 0
-        self.pc = GAME_KEYS[ri(0, 2)]
+        self.pc = GAME_KEYS[ri(0, len(GAME_KEYS))]
 
     def setNum(self):
         '''
